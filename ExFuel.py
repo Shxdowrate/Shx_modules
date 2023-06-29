@@ -96,6 +96,10 @@ class ExFuel(loader.Module):
                     await asyncio.sleep(delay)
                     await self.client.send_message(5522271758, 'Качать')
                     return
+        if message.raw_text == '/checkexfuel':
+            if message.from_id == 5195118663: 
+                await self.client.send_message(message.to_id, 'evo')
+                return
                 
     @loader.command()
     async def exf(self, message):
