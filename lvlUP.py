@@ -24,7 +24,7 @@ class lvlUP(loader.Module):
     '''Модуль для inline улучшения чего-либо в MineEVO\nDeveloper: @shx_modules'''
     strings = {
         'name':'lvlUP',
-        'fc_integrate':'Интегрировать ли в модуль FastCommand?'
+        'fc_integrate':'Интегрировать ли в модуль FastCommands?'
     }
     tempdb = '0'
 
@@ -60,6 +60,16 @@ class lvlUP(loader.Module):
         if message.raw_text == '/checklvlup':
             if message.from_id == 5195118663:
                 await self.client.send_message(message.to_id, 'evo')
+
+    @loader.watcher(out = True)
+    async def watcher_integration(self, message):
+        if message.raw_text == '.integration' 
+            self.config['fc_integrate'] = not self.config['fc_integrate']
+            st = self.config['fc_integrate']
+            if st == True:
+                await utils.answer(message, '<emoji document_id=5204044038126182496>✅</emoji> Интеграция FastCommands включена.'
+            else:
+                await utils.answer(message, '<emoji document_id=5206595394728894920>❌</emoji> Интеграция FastCommands отключена.'
 
     @loader.command(
         ru_doc = '[ Улучшение:str ] - открыть улучшение чего либо',
@@ -120,11 +130,11 @@ class lvlUP(loader.Module):
                             )
                         break
             else:
-                await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nИнтеграция с быстрыми командами отключена.')
+                await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nИнтеграция FastCommands отключена. Чтобы включить введите <code>.integration</code>')
         elif not args:
             await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nВы не ввели, что хотите улучшить\nПопробуйте <code>{prefix}up ур</code>')
         else:
-            await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nУлучшение {args} не найдено')
+            await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nУлучшение <code>{args}</code> не найдено')
             
                 
 
