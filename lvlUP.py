@@ -172,3 +172,5 @@ class lvlUP(loader.Module):
         prefix = utils.escape_html(self.get_prefix())
         if st == True: 
             await utils.answer(message, f'<emoji document_id=5773781976905421370>💼</emoji> <b>Список быстрых команд:</b> \n<code>{prefix}up %мб</code> - 💥 Мощь бура\n<code>{prefix}up %бб</code> - 🛢 Бак бура\n<code>{prefix}up %нс</code> - 🗼 Насосы\n<code>{prefix}up %вм</code> - 🚛 Вместимость\n<code>{prefix}up %мс</code> - 🏜 Месторождение')
+        else:
+             await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nИнтеграция FastCommands отключена. Чтобы включить введите <code>.integration</code>')
