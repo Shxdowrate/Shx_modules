@@ -63,7 +63,7 @@ class lvlUP(loader.Module):
 
     @loader.watcher(out = True)
     async def watcher_integration(self, message):
-        if message.raw_text == '.integration' 
+        if message.raw_text == '.integration':
             self.config['fc_integrate'] = not self.config['fc_integrate']
             st = self.config['fc_integrate']
             if st == True:
