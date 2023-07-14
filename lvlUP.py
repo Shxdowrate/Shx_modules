@@ -124,7 +124,7 @@ class lvlUP(loader.Module):
         elif not args:
             await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nВы не ввели, что хотите улучшить\nПопробуйте <code>{prefix}up ур</code>')
         else:
-            await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nТакое улучшение не найдено')
+            await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}up</code>\nУлучшение {args} не найдено')
             
                 
 
@@ -152,9 +152,12 @@ class lvlUP(loader.Module):
             ]
         )
 
-    @loader.command()
+    @loader.command(
+        ru_doc = '- список быстрых команд для интеграции',
+        de_doc = '- liste der Schnellbefehle für die Integration'
+    )
     async def fch(self, message):
-        ''' - список быстрых команд для интеграции'''
+        ''' - list of quick commands for integration'''
         st = self.config['fc_integrate']
         prefix = utils.escape_html(self.get_prefix())
         if st == True: 
