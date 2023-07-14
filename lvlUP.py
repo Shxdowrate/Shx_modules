@@ -68,7 +68,7 @@ class lvlUP(loader.Module):
             st = self.config['fc_integrate']
             if st == True:
                 await utils.answer(message, '<emoji document_id=5204044038126182496>✅</emoji> Интеграция FastCommands включена.'
-            else:
+            elif st == False:
                 await utils.answer(message, '<emoji document_id=5206595394728894920>❌</emoji> Интеграция FastCommands отключена.'
 
     @loader.command(
