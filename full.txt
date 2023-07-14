@@ -1,7 +1,7 @@
 BossListLite
 DelayCLK
 DelayMSG
-EVOlution 1.8.1
+EVOlution
 FAUD
 Feval
 Frip
@@ -11,3 +11,4 @@ MessageStealer
 MinerTwink
 MyModulesRu
 NoMeta
+lvlUP
