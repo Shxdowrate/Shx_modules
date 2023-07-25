@@ -15,7 +15,7 @@ from .. import utils, loader
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.tl.types import ChannelParticipantsSearch
 
-__version__ = (1, 0, 0)
+__version__ = (1, 0, 1)
 
 class DPC(loader.Module):
     '''Калькулятор плазмы для улучшения автобура MineEVO.\nDeveloper: @shx_modules'''
