@@ -53,7 +53,7 @@ class DPC(loader.Module):
                     if args_start > args_end:
                         args_start, args_end = args_end, args_start
                     plasma_cost = sum(10000 + 5000 * (level - 1) for level in range(args_start, args_end))
-                    await utils.answer(message, f'🎆 <b><u>Итог:</u></b>\n<b>Начальный уровень:<b> <code>{args[0]}</code>\n<b>Конечный уровень:</b> <code>{args[1]}</code>\n<b><u>Цена:</b></u> <code>{plasma_cost}</code>')
+                    await utils.answer(message, f'🎆 <b><u>Итог:</u></b>\n<b>Начальный уровень:<b> <code>{args_start}</code>\n<b>Конечный уровень:</b> <code>{args_end}</code>\n<b><u>Цена:</b></u> <code>{plasma_cost}</code>')
                     return
         else:
             await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}dpc</code>\nМодуль поддерживает только два аргумента, а было указано менее двух.\nПопробуйте: <code>{prefix}dpc 1 80</code>')
