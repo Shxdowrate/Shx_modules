@@ -79,6 +79,7 @@ class WGPT(loader.Module):
         ''' - настройки модуля\nprefix - изменить префикс\nmono - выделять ли ответ GPT моноширным шрифтом?'''
         aa = self.db.get(self.name, 'prefix')
         bb = self.db.get(self.name, 'mono')
+        prefix = utils.escape_html(self.get_prefix())
         args = utils.get_args_raw(message)
         if args == 'prefix':
             await utils.answer(message, f'<emoji document_id=5784993237412351403>✅</emoji> Ваш префикс "<code>{aa}</code>".')
@@ -98,6 +99,9 @@ class WGPT(loader.Module):
                 bbs = '<emoji document_id=5784993237412351403>✅</emoji> Ответ теперь выделяется моноширным шрифтом.'
                 self.db.set(self.name, 'mono', True)
             await utils.answer(message, bbs)
+            return
+        elif not args:
+            await utils.answer(message, <emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}gptsettings</code>\nВы не указали параметр.)
             return
         else:
             await utils.answer(message, f'Параметра <code>{args}</code> не существует.')
