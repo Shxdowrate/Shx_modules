@@ -101,7 +101,7 @@ class WGPT(loader.Module):
             await utils.answer(message, bbs)
             return
         elif not args:
-            await utils.answer(message, '<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}gptsettings</code>\nВы не указали параметр.')
+            await utils.answer(message, f'<emoji document_id=5877477244938489129>🚫</emoji> <b>Error |</b> <code>{prefix}gptsettings</code>\nВы не указали параметр.')
             return
         else:
             await utils.answer(message, f'Параметра <code>{args}</code> не существует.')
