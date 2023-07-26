@@ -11,6 +11,6 @@ MinerTwink
 MyModulesRu
 NoMeta
 lvlUP
-newbosslistlite
+WGPT
 MuteFrom
 DPC
