@@ -39,7 +39,7 @@ class FastFreezeBot(loader.Module):
         mtime = self.config['timefreeze']
         if message.raw_text == mword:
             await message.edit(f'❄️ | <b>Ваш юзербот был заморожен на</b> <code>{mtime}</code> <b>секунд.</b>')
-            await time.sleep(mtime)
+            time.sleep(mtime)
 
 
     @loader.command()
