@@ -11,8 +11,9 @@
 from .. import utils, loader
 import asyncio
 from asyncio import sleep
+import inspect
 
-__version__ = (1, 0, 0)
+__version__ = (1, 1, 0)
 
 class AutoMailing(loader.Module):
     '''Модуль для автоматической рассылки постов с одного канала в несколько других.\nDeveloper: @shx_modules'''
