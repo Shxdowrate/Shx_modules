@@ -25,3 +25,4 @@ EvoPromo
 EdMAP
 AutoMailing
 FastFreezeBot
+AMD
