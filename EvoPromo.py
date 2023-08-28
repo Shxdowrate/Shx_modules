@@ -18,7 +18,7 @@ from asyncio import sleep
 from ..inline.types import InlineCall
 import inspect
 
-__version__ = (1, 1, 0)
+__version__ = (1, 1, 1)
 
 class EvoPromo(loader.Module):
     '''Модуль для создания пользовательских промо MineEVO\nDeveloper: @shx_modules'''
@@ -117,7 +117,7 @@ class EvoPromo(loader.Module):
                                     sender = self.get( 'sender')
                                     wintext = self.get('wintext')
                                     losetext = self.get('losetext')
-                                    timetext = self.get('timetext')
+                                    
 
 
 
@@ -144,6 +144,7 @@ class EvoPromo(loader.Module):
                                             return
                                     
                                 else:
+                                    timetext = self.get('timetext')
                                     await message.reply(timetext.format(prm=prm, promo=promo, acti=acti, activ=activ)) # Достигнут лимит активаций
                                     return
     @loader.command(alias = 'pnp')
