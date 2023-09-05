@@ -23,6 +23,7 @@ UnTrans
 Alphabeted
 EvoPromo
 EdMAP
+MineEVOAP
 AutoMailing
 FastFreezeBot
 AMDe
