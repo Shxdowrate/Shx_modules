@@ -27,3 +27,4 @@ MineEVOAP
 AutoMailing
 FastFreezeBot
 AMDe
+AuWork
