@@ -129,7 +129,7 @@ class BizWork(loader.Module):
             if args.isdigit():
                 work = int(args)
                 if work > 0:
-                    self.config['work_num'] == work
+                    self.config['work_num'] = work
                     await utils.answer(message, f'<emoji document_id=5307958727448469562>✅</emoji> <b>Кол-во работ изменено на <code>{work}</code></b>.')
                     return
                 else:
