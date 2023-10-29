@@ -12,7 +12,7 @@ import asyncio
 from asyncio import sleep
 import inspect
 
-__version__ = (1, 0, 0)
+__version__ = (1, 0, 1)
 
 class MewBizWork(loader.Module):
     '''Новый, полностью автоматический модуль для работы на бизнессы в боте @good_biznesbot\nDeveloper: @shx_modules'''
