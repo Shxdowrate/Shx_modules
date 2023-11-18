@@ -1,9 +1,9 @@
 #—————————————————————————————————————————————————————————————————————————————————
-#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Channel: https://t.me/shx_modules
+#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Channel: https://t.me/mescr_m
 #  ▄█ █▀█ █ █   █ ▀ █ █▄█ █▄▀ █▄█ █▄▄ ██▄ ▄█ Not Licensed
 #—————————————————————————————————————————————————————————————————————————————————
 # Idea:
-# meta developer: @shx_modules
+# meta developer: @mescr_m
 # Thanks: 
 #—————————————————————————————————————————————————————————————————————————————————
 
@@ -17,7 +17,7 @@ import re
 from ..inline.types import InlineCall
 
 class IrisFarmLite(loader.Module):
-    '''Модуль для фарма койнов в Iris\nDeveloper: @shx_modules'''
+    '''Модуль для фарма койнов в Iris\nDeveloper: @mescr_m'''
     strings = {
         'name':'IrisFarmLite',
     }
