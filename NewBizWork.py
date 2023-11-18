@@ -1,9 +1,9 @@
 #—————————————————————————————————————————————————————————————————————————————————
-#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Chanel: https://t.me/shx_modules
+#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Chanel: https://t.me/mescr_m
 #  ▄█ █▀█ █ █   █ ▀ █ █▄█ █▄▀ █▄█ █▄▄ ██▄ ▄█ Not Licensed
 #—————————————————————————————————————————————————————————————————————————————————
 # Idea:
-# meta developer: @shx_modules
+# meta developer: @mescr_m
 # Thanks: 
 #—————————————————————————————————————————————————————————————————————————————————
 
@@ -14,7 +14,7 @@ from asyncio import sleep
 __version__ = (1, 1, 1)
 
 class MewBizWork(loader.Module):
-    '''Новый, полностью автоматический модуль для работы на бизнессы в боте @good_biznesbot\nDeveloper: @shx_modules'''
+    '''Новый, полностью автоматический модуль для работы на бизнессы в боте @good_biznesbot\nDeveloper: @mescr_m'''
 
     strings = {
         'name': 'NewBizWork',
