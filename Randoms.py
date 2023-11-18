@@ -1,9 +1,9 @@
 #—————————————————————————————————————————————————————————————————————————————————
-#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Chanel: https://t.me/shx_modules
+#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Chanel: https://t.me/mescr_m
 #  ▄█ █▀█ █ █   █ ▀ █ █▄█ █▄▀ █▄█ █▄▄ ██▄ ▄█ Not Licensed
 #—————————————————————————————————————————————————————————————————————————————————
 # Idea:
-# meta developer: @shx_modules
+# meta developer: @mescr_m
 # Thanks: 
 #—————————————————————————————————————————————————————————————————————————————————
 
@@ -14,7 +14,7 @@ import random
 import inspect
 
 class Randoms(loader.Module):
-    '''Модуль для получения всего рандомного.\nDeveloper: @shx_modules'''
+    '''Модуль для получения всего рандомного.\nDeveloper: @mescr_m'''
 
     strings = {
         'name':'Randoms',
