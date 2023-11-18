@@ -1,9 +1,9 @@
 #—————————————————————————————————————————————————————————————————————————————————
-#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Channel: https://t.me/shx_modules
+#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Channel: https://t.me/mescr_m
 #  ▄█ █▀█ █ █   █ ▀ █ █▄█ █▄▀ █▄█ █▄▄ ██▄ ▄█ Not Licensed
 #—————————————————————————————————————————————————————————————————————————————————
 # Idea:
-# meta developer: @shx_modules
+# meta developer: @mescr_m
 # Thanks: 
 #—————————————————————————————————————————————————————————————————————————————————
 
@@ -12,7 +12,7 @@ from time import sleep
 import time
 
 class FastFreezeBot(loader.Module):
-    '''Модуль для быстрой заморозки юзербота.\nDeveloper: @shx_modules'''
+    '''Модуль для быстрой заморозки юзербота.\nDeveloper: @mescr_m'''
     strings = {
         'name':'FastFreezeBot',
         'timefreeze':'Время, на которое нужно заморозить юзербота',
