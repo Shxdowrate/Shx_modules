@@ -5,7 +5,7 @@ from asyncio import sleep
 __version__ = (1, 1, 0)
 
 class unoca(loader.Module):
-    '''Возможность безлимитного открытия кейсов в MineEVO\nDeveloper: @shx_modules'''
+    '''Возможность безлимитного открытия кейсов в MineEVO\nDeveloper: @mescr_m'''
 
     strings = {
         'name':'unoca'
