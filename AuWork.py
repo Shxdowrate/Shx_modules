@@ -1,9 +1,9 @@
 #—————————————————————————————————————————————————————————————————————————————————
-#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Chanel: https://t.me/shx_modules
+#  █▀ █ █ ▀▄▀   █▀▄▀█ █▀█ █▀▄ █ █ █   █▀▀ █▀ Chanel: https://t.me/mescr_m
 #  ▄█ █▀█ █ █   █ ▀ █ █▄█ █▄▀ █▄█ █▄▄ ██▄ ▄█ Not Licensed
 #—————————————————————————————————————————————————————————————————————————————————
 # Idea:
-# meta developer: @shx_modules
+# meta developer: @mescr_m
 # Thanks: 
 #—————————————————————————————————————————————————————————————————————————————————
 
@@ -16,7 +16,7 @@ from ..inline.types import InlineCall
 __version__ = (1, 2, ' Cycle Update')
 
 class AuWork(loader.Module):
-    '''Модуль для автоматического /work в боте @good_biznesbot\nDeveloper: @shx_modules'''
+    '''Модуль для автоматического /work в боте @good_biznesbot\nDeveloper: @mescr_m'''
     strings = {
         'name':'AuWork',
         'time':'Переодичность отправки "Работа" между чатами.\nУказывайте в секундах.',
