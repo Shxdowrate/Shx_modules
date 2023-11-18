@@ -31,7 +31,6 @@ AuWork
 IrisFarmLite
 ReplyDel
 StopWatch
-BizWork
 NewBizWork
 EvDC
 SalGet
